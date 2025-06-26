@@ -6,6 +6,9 @@ sky:
     database: sky_take_out
     username: root
     password: "0000"
+  wechat:
+    appid: wxae7603d7c4aa0db4
+    secret: 46437c7fbbf326c7afe05017afb579f3
 #  alioss:
 #    endpoint: oss-cn-hangzhou.aliyuncs.com
 #    access-key-id: LTAI5tPeFLzsPPT8gG3LPW64
