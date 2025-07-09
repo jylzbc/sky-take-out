@@ -9,6 +9,13 @@ sky:
   wechat:
     appid: wxae7603d7c4aa0db4
     secret: 46437c7fbbf326c7afe05017afb579f3
+    mchid: 1561414331
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+    privateKeyFilePath: D:\apiclient_key.pem
+    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+    weChatPayCertFilePath: D:\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
+    notifyUrl: https://www.weixin.qq.com/wxpay/pay.php
+    refundNotifyUrl: https://www.weixin.qq.com/wxpay/pay.php
 #  alioss:
 #    endpoint: oss-cn-hangzhou.aliyuncs.com
 #    access-key-id: LTAI5tPeFLzsPPT8gG3LPW64
