@@ -61,5 +61,9 @@ sky:
     weChatPayCertFilePath: ${sky.wechat.weChatPayCertFilePath}
     notifyUrl: ${sky.wechat.notifyUrl}
     refundNotifyUrl: ${sky.wechat.refundNotifyUrl}
+  shop:
+    address: 吉林省长春市朝阳区吉林大学前卫南区
+  baidu:
+    ak: yd109tvMocKLJenPV7YrHjHV2amQhv0U
 
 
