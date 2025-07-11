@@ -2,6 +2,7 @@ package com.sky.task;
 
 import com.sky.entity.Orders;
 import com.sky.mapper.OrderMapper;
+import com.sky.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -25,6 +26,8 @@ public class OrderTask {
 
     @Autowired
     private OrderMapper orderMapper;
+    @Autowired
+    private UserMapper userMapper;
 
     /**
      * 处理支付超时订单
@@ -63,5 +66,18 @@ public class OrderTask {
                 orderMapper.update(order);
             });
         }
+    }
+
+    /**
+     * 根据时间区间统计用户数量
+     * @param beginTime
+     * @param endTime
+     * @return
+     */
+    private Integer getUserCount(LocalDateTime beginTime, LocalDateTime endTime) {
+        Map map = new HashMap();
+        map.put("begin",beginTime);
+        map.put("end", endTime);
+        return userMapper.countByMap(map);
     }
 }
