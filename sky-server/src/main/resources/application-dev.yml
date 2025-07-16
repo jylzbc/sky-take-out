@@ -5,10 +5,10 @@ sky:
     port: 3306
     database: sky_take_out
     username: root
-    password: "0000"
+    password: this location is a password, I hide it bacause security problem.
   wechat:
-    appid: wxae7603d7c4aa0db4
-    secret: 46437c7fbbf326c7afe05017afb579f3
+    appid: this location is APPID, I hide it bacause security problem.
+    secret: this location is secret, I hide it bacause security problem.
     mchid: 1561414331
     mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
     privateKeyFilePath: D:\apiclient_key.pem
@@ -16,18 +16,14 @@ sky:
     weChatPayCertFilePath: D:\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
     notifyUrl: https://www.weixin.qq.com/wxpay/pay.php
     refundNotifyUrl: https://www.weixin.qq.com/wxpay/pay.php
-#  alioss:
-#    endpoint: oss-cn-hangzhou.aliyuncs.com
-#    access-key-id: LTAI5tPeFLzsPPT8gG3LPW64
-#    access-key-secret: U6k1brOZ8gaOIXv3nXbulGTUzy6Pd7
-#    bucket-name: sky-take-out
+
   alioss:
     endpoint: oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5tH8NaY8tmnYx2FCEBcp
-    access-key-secret: mxVwJwBlku2s1b29uns0KDLjsCfqB6
-    bucket-name: zhangbeichen-20250426
+    access-key-id: this location is access-key-id, I hide it bacause security problem.
+    access-key-secret: this location is access-key-secret, I hide it bacause security problem.
+    bucket-name: this location is bucket-name, I hide it bacause security problem.
   redis:
     host: localhost
     port: 6379
-    password: "123456"
+    password: this location is a password, I hide it bacause security problem.
     database: 10
