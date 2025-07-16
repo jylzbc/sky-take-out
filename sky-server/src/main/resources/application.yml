@@ -47,9 +47,9 @@ sky:
     user-token-name: authentication
   alioss:
     endpoint: https://oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5tH8NaY8tmnYx2FCEBcp
-    access-key-secret: mxVwJwBlku2s1b29uns0KDLjsCfqB6
-    bucket-name: zhangbeichen-20250426
+    access-key-id: this location is access-key-id, I hide it bacause security problem.
+    access-key-secret: this location is access-key-secret, I hide it bacause security problem.
+    bucket-name: this location is bucket name, I hide it bacause security problem.
     region: cn-beijing
   wechat:
     appid: ${sky.wechat.appid}
@@ -62,8 +62,8 @@ sky:
     notifyUrl: ${sky.wechat.notifyUrl}
     refundNotifyUrl: ${sky.wechat.refundNotifyUrl}
   shop:
-    address: 吉林省长春市朝阳区吉林大学前卫南区
+    address: this location is address, I hide it bacause security problem.
   baidu:
-    ak: yd109tvMocKLJenPV7YrHjHV2amQhv0U
+    ak: this location is baidu-ak, I hide it bacause security problem.
 
 
